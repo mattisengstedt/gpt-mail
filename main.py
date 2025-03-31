@@ -1,0 +1,3 @@
+import email_processing
+
+email_processing.process_unread_emails()
