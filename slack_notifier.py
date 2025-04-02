@@ -2,7 +2,7 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 import user_settings
 # Skapa en klient för att interagera med Slack API
-client = WebClient(token=data.SLACK_BOT_TOKEN )
+client = WebClient(token=user_settings.SLACK_BOT_TOKEN )
 
 def send_slack_message(message):
     try:
